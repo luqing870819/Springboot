@@ -12,6 +12,9 @@ public class UserServiceImpl implements UserService{
 //	@Autowired
 //	private UserMapper userMapper;
 
+	/**
+	 * 查询所有用户
+	 */
 	@Override
 	public List<User> findAllUser() {
 //		return userMapper.findall();
